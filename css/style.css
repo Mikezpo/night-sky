@@ -1,0 +1,38 @@
+/* BOX MODEL HACK */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* I'm giving a base font-size of 62.5% which equals to 10px. Therefore, 1em = 10px. This will allow a simpler calculation of font-sizes, and provide a better user interactivity on different devices and being user friendly. */
+  
+html {
+    font-size: 62.5%;
+    color: black;
+    font-weight: 100;
+    line-height: 2;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+    display: block;
+    margin: 0 auto;
+    width: 40rem;
+}
+  
+h3 {
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+  
+  
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+  

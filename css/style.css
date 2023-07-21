@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital@1&family=Oleo+Script&family=Pacifico&display=swap');
+
 /* BOX MODEL HACK */
 * {
     box-sizing: border-box;
@@ -23,24 +25,41 @@ section {
     width: 100%;
     margin: 0 2rem;
     text-align: center;
+
+    border: 1px solid red;
 }
 
 div {
+    margin: 4rem 2rem;
     display: flex;
     flex-direction: column;
+    border: 1px solid blue;
 }
+
+input {
+    width: 10rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 174, 199);
+    padding: 0.4rem;
+    display: block;
+    margin: 2rem auto;
+  }
+  
+
 
 img {
     display: block;
     margin: 0 auto;
     max-width: 50rem;
     max-height: 50rem;
-    
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(116, 177, 238);
 }
-  
-h3 {
-    font-size: 1rem;
-    padding: 0 2rem;
+
+img:hover {
+    transform: scale(1.05);
+    transition: all 0.8s ease;
 }
   
   

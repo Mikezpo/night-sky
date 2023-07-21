@@ -17,13 +17,25 @@ body {
     padding: 0;
 }
   
-/******************************************
-/* LAYOUT
-/*******************************************/
-img{
+/* LAYOUT*/
+
+section {
+    width: 100%;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
     display: block;
     margin: 0 auto;
-    width: 40rem;
+    max-width: 50rem;
+    max-height: 50rem;
+    
 }
   
 h3 {

@@ -23,3 +23,14 @@ The project was built using the following technologies:
 ## Features to be added
 - Astronomy Insights: Provide educational insights and details about the celestial objects featured in the photos to foster a deeper understanding of the universe.
 - Random Astronomy Facts: Enrich the user experience with fascinating astronomy facts, displayed alongside the daily photos, to educate and engage users further.
+- Astro Events Calendar: Create an interactive celestial events calendar, highlighting upcoming astronomical events and phenomena to watch out for.
+- Interactive Photo Viewer: Allow users to zoom in and explore finer details of the captivating celestial images for an even more immersive experience.
+- Dark Mode: Implement a dark mode option for Night Sky to provide a more comfortable viewing experience during nighttime stargazing.
+
+
+## Conclusion
+Thank you for visiting my project. I hope you find my work as exciting as I do.
+
+
+## Contact Me
+If you'd like to learn more about my skills and experience, please don't hesitate to reach out. I'd love to hear from you!

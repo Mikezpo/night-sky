@@ -12,3 +12,14 @@ Night Sky is a captivating Web Application that allows users to explore the wond
 - Explore the captivating photo and read the accompanying description to gain insights into the universe's beauty.
 - Return daily to experience a new and enchanting photo from NASA's vast collection.
 
+
+## Technologies Used
+The project was built using the following technologies:
+- HTML
+- CSS
+- JavaScript
+
+
+## Features to be added
+- Astronomy Insights: Provide educational insights and details about the celestial objects featured in the photos to foster a deeper understanding of the universe.
+- Random Astronomy Facts: Enrich the user experience with fascinating astronomy facts, displayed alongside the daily photos, to educate and engage users further.

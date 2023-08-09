@@ -3,9 +3,7 @@
 /* BOX MODEL HACK */
 * {
     box-sizing: border-box;
-  }
-  
-  /* I'm giving a base font-size of 62.5% which equals to 10px. Therefore, 1em = 10px. This will allow a simpler calculation of font-sizes, and provide a better user interactivity on different devices and being user friendly. */
+}
   
 html {
     font-size: 62.5%;
@@ -17,15 +15,17 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: rgb(249, 243, 220);
+    background: url('https://images.unsplash.com/photo-1537420327992-d6e192287183?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80');
 }
   
 /* LAYOUT*/
 
 section {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
+    background: rgb(249, 243, 220);
+    
 }
 
 div {
@@ -33,17 +33,19 @@ div {
     margin: 4rem auto;
     display: flex;
     flex-direction: column;
+    
 }
 
 input {
-    width: 10rem;
+    width: 13rem;
+    font-size: 1.4rem;
     text-align: center;
     border-radius: 10px;
     border: 1px solid rgb(117, 162, 201);
     padding: 0.4rem;
     display: block;
     margin: 2rem auto;
-  }
+}
   
 button {
     background: rgb(117, 162, 201);
@@ -52,7 +54,7 @@ button {
     border: 1px solid rgb(117, 162, 201);
     color: rgb(249, 243, 220);
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-family: 'Lobster Two', cursive;
     cursor: pointer;
 }
@@ -70,6 +72,7 @@ h1, h2 {
 
 h1 {
     font-size: 3rem;
+    padding: 5rem 0 3rem 0;
 }
 
 h2 {

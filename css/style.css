@@ -57,6 +57,8 @@ button {
     font-size: 2rem;
     font-family: 'Lobster Two', cursive;
     cursor: pointer;
+    width: 13rem;
+    margin: 0 auto;
 }
   
 button:hover {

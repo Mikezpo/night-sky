@@ -14,7 +14,7 @@ function getFetch(){
         }else if(data.media_type === 'video') {
             document.querySelector('iframe').src = data.url
         }
-        document.querySelector('p').innerHTML = data.explanation
+        document.querySelector('.astroPhotoDescr').innerHTML = data.explanation
 
       })
       .catch(err => {
@@ -23,4 +23,21 @@ function getFetch(){
 }
 
 // API fetch for Mars view
+
+document.querySelector('#marsImage').addEventListener('click', getMars)
+
+function getMars() {
+    const url = ``;
+
+    fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+
+            document.querySelector('.marsPhotoDescr').innerHTML = data.explanation
+        })
+        .catch(err => {
+            console.log(`error ${err}`)
+        })
+}
 

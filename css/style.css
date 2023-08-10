@@ -70,11 +70,13 @@ button:hover {
   
 h1, h2 {
     font-family: 'Courgette', cursive;
+
+    border: 1px solid red;
 }
 
 h1 {
     font-size: 3rem;
-    padding: 5rem 0 3rem 0;
+    padding: 5rem 0;
 }
 
 h2 {

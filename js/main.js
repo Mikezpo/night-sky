@@ -1,5 +1,5 @@
-//Example fetch using pokemonapi.co
-document.querySelector('button').addEventListener('click', getFetch)
+// API fetch for NASA photo
+document.querySelector('#nasaImage').addEventListener('click', getFetch)
 
 function getFetch(){
   const choice = document.querySelector('input').value
@@ -21,3 +21,6 @@ function getFetch(){
           console.log(`error ${err}`)
       });
 }
+
+// API fetch for Mars view
+

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital@1&family=Oleo+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two:ital@1&family=Oleo+Script&family=Pacifico&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400;1,700&display=swap');
 
 /* BOX MODEL HACK */
 * {
@@ -82,8 +82,9 @@ h2 {
   
 p {
     font-size: 1.8rem;
+    font-weight: 600;
     padding: 2rem;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 img {
@@ -106,7 +107,7 @@ img:hover {
     /* transform: scale(1.05);
     transition: all 0.8s ease; */
 
-    -webkit-transform: scale(1.1);
+    -webkit-transform: scale(1.05);
 	transform: scale(1.1);
 }
   

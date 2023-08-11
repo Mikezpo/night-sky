@@ -25,6 +25,7 @@ section {
     margin: 0 auto;
     text-align: center;
     background: rgb(249, 243, 220);
+    border-radius: 10px;
     
 }
 
@@ -68,10 +69,8 @@ button:hover {
     transition: all 0.8s ease-out;
 }
   
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Courgette', cursive;
-
-    border: 1px solid red;
 }
 
 h1 {
@@ -81,7 +80,12 @@ h1 {
 
 h2 {
     font-size: 2.6rem;
-    color: rgb(117, 162, 201);
+    color: rgb(10, 132, 194);
+}
+
+h3 {
+    font-size: 2.2rem;
+    color:rgb(116, 177, 238);
 }
   
 p {
@@ -93,7 +97,7 @@ p {
 
 img {
     display: block;
-    margin: 2rem auto;
+    margin: 4rem auto 2rem auto;
     max-width: 50rem;
     max-height: 50rem;
     border-radius: 10px;
@@ -112,7 +116,7 @@ img:hover {
     transition: all 0.8s ease; */
 
     -webkit-transform: scale(1.05);
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
   
   

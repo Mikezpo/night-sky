@@ -29,7 +29,7 @@ section {
     
 }
 
-div {
+.infoDiv {
     max-width: 90rem;
     margin: 4rem auto;
     display: flex;
@@ -106,9 +106,7 @@ img {
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-
-    
+	transition: .5s ease-in-out;    
 }
 
 img:hover {
@@ -118,7 +116,27 @@ img:hover {
     -webkit-transform: scale(1.05);
 	transform: scale(1.05);
 }
-  
+
+/* Mars photo specs */
+
+.marsSpecs {
+    margin: 0 auto;
+    max-width: 60rem;
+    justify-content: space-between;
+
+    border: 1px solid red;
+}
+
+.topSpan {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.bottomSpan {
+    font-weight: 400;
+    font-size: 2rem;
+}
   
 /******************************************
 /* ADDITIONAL STYLES

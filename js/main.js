@@ -30,7 +30,7 @@ fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?sol=100
             console.log(data)
             document.querySelector('#marsPhoto').src = data.photos[1].img_src
 
-            document.querySelector('.marsPhotoDescr').innerHTML = data.photos[22].camera.full_name
+            document.querySelector('.marsCameraType').innerHTML = data.photos[1].camera.full_name
         })
         .catch(err => {
             console.log(`error ${err}`)

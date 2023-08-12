@@ -71,9 +71,14 @@ function getFetch(){
 document.querySelector('#marsImage').addEventListener('click', getMars)
 
 function getMars() {
-    const roverName = 'opportunity';  // You can change this to 'curiosity' or 'perseverance' as needed
+    // random rover names
+    const roverName = 'opportunity';
+    // const randomRoverIndex = Math.random() * roverNames.length;
     const cameraType = 'pancam';
+    // const randomCameraTypes = Math.ceil(Math.random() * cameraTypes.length);
+    // API key
     const apiKey = 'aSLcYwUz5fP5sVIFDISMxQesnaakfPORu74cOw3M';
+    // random Mars day
     const sol = Math.random(1) * 998 + 1;
 
     // Clear the error message

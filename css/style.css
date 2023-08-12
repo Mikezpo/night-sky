@@ -34,14 +34,10 @@ section {
     margin: 4rem auto;
     display: flex;
     flex-direction: column;
-
-    border: 1px solid red;
 }
 
 .marsDiv {
     margin-top: 0 !important;
-
-    border: 1px solid red;
 }
 
 input {

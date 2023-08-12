@@ -34,7 +34,14 @@ section {
     margin: 4rem auto;
     display: flex;
     flex-direction: column;
-    
+
+    border: 1px solid red;
+}
+
+.marsDiv {
+    margin-top: 0 !important;
+
+    border: 1px solid red;
 }
 
 input {
@@ -123,19 +130,27 @@ img:hover {
     margin: 0 auto;
     max-width: 60rem;
     justify-content: center;
-
-    border: 1px solid red;
+    padding-bottom: 10rem;
 }
 
 .topSpan {
     font-weight: 600;
     font-size: 2rem;
-    margin-right: 2rem;    
+    margin-right: 2rem;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .bottomSpan {
     font-weight: 400;
     font-size: 2rem;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.errorImage {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(225, 16, 16);
+    z-index: 3;
 }
   
 /******************************************

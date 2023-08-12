@@ -122,7 +122,7 @@ img:hover {
 .marsSpecs {
     margin: 0 auto;
     max-width: 60rem;
-    justify-content: space-between;
+    justify-content: center;
 
     border: 1px solid red;
 }
@@ -130,7 +130,7 @@ img:hover {
 .topSpan {
     font-weight: 600;
     font-size: 2rem;
-    margin-right: 2rem;
+    margin-right: 2rem;    
 }
 
 .bottomSpan {

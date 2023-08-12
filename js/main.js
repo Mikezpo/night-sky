@@ -23,18 +23,28 @@ function getFetch(){
 }
 
 // API fetch for Mars view
+let sol = ''
 
-fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?sol=100&camera=pancam&api_key=aSLcYwUz5fP5sVIFDISMxQesnaakfPORu74cOw3M`)
+for(let i = 1; i < sol.length -1; i++) {
+    sol = Math.random(sol[i] * 1000);
+}
+
+fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?sol=999&camera=pancam&api_key=aSLcYwUz5fP5sVIFDISMxQesnaakfPORu74cOw3M`)
         .then(res => res.json())
         .then(data => {
             console.log(data)
-            document.querySelector('#marsPhoto').src = data.photos[1].img_src
+            document.querySelector('#marsPhoto').src = data.photos[0].img_src
+            document.querySelector('.marsCameraType').innerHTML = data.photos[0].camera.full_name
+            document.querySelector('.photoDay').innerHTML = data.photos[0].earth_date
+            document.querySelector('.marsRoverName').innerHTML = data.photos[0].rover.name
+            document.querySelector('.roverTotalDays').innerHTML = data.photos[0].rover.max_sol
 
-            document.querySelector('.marsCameraType').innerHTML = data.photos[1].camera.full_name
         })
         .catch(err => {
             console.log(`error ${err}`)
         });
+
+
 // document.querySelector('#marsImage').addEventListener('click', getMars)
 
 // function getMars() {

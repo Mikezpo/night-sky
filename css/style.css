@@ -29,6 +29,11 @@ section {
     
 }
 
+.headerSection {
+    background: none;
+    color: rgb(249, 243, 220);
+}
+
 .infoDiv {
     max-width: 90rem;
     margin: 4rem auto;
@@ -77,7 +82,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 5rem 0;
 }
 
@@ -98,26 +103,41 @@ p {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.imageContainer {
+    position: relative;
+    width: 300px; /* Set the initial width of the container */
+    overflow: hidden;
+    transition: width 0.3s ease;
+
+    margin: 5rem auto 0 auto;
+
+}
+
+.imageContainer:hover {
+    width: 320px;
+}
+
 img {
-    display: block;
+    /* display: block;
     margin: 4rem auto 2rem auto;
     max-width: 50rem;
-    max-height: 50rem;
+    max-height: 50rem; */
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgb(116, 177, 238);
-
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;    
 }
 
 img:hover {
+    transform: scale(0.9);
+
     /* transform: scale(1.05);
     transition: all 0.8s ease; */
 
-    -webkit-transform: scale(1.05);
-	transform: scale(1.05);
+    /* -webkit-transform: scale(1.05);
+	transform: scale(1.05); */
 }
 
 /* Mars photo specs */
@@ -148,8 +168,22 @@ img:hover {
     color: rgb(225, 16, 16);
     z-index: 3;
 }
-  
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-  
+
+/* Footer */
+
+.registered {
+    color: rgb(249, 243, 220);
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.registered a {
+    text-decoration: none;
+    color: rgb(249, 243, 220);
+}
+
+.registered a:hover {
+    transition: all 0.8s ease;
+    color: rgb(116, 177, 238);
+}

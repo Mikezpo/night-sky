@@ -104,48 +104,29 @@ p {
 }
 
 .imageContainer {
-    position: relative;
-    max-width: 80%; /* Set the initial width of the container */
+    width: 80%;
+    height: auto;
     overflow: hidden;
-    transition: width 0.3s ease;
-
+    cursor: pointer;
     margin: 5rem auto 0 auto;
-
 }
 
-/* .imageContainer:hover {
-    width: 320px;
-} */
+.imageContainer:hover {
+    display: block;
+}
 
-.imageContainer img {
+img {
     max-width: 100%;
     height: auto;
-    transition: transform 0.3s ease;
-
-    border-radius: 10px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 
-/* .imageContainer img:hover {
-    
-
-    transform: scale(1.05);
-    transition: all 0.8s ease;
-
-    -webkit-transform: scale(1.05);
-	transform: scale(1.05);
-} */
-
-#marsPhoto {
-    max-width: 80%;
-    margin: 4rem auto;
-    height: auto;
-    box-shadow: inset 1px 1px 40px 0 rgb(117, 162, 201);
-    border-bottom: 2px solid #fff;
-    border-right: 2px solid #fff;
-    background-size: cover;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 0.4rem;
+img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
 }
 
 /* Mars photo specs */

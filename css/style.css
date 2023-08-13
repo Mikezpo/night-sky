@@ -105,7 +105,7 @@ p {
 
 .imageContainer {
     position: relative;
-    width: 300px; /* Set the initial width of the container */
+    max-width: 80%; /* Set the initial width of the container */
     overflow: hidden;
     transition: width 0.3s ease;
 
@@ -113,31 +113,39 @@ p {
 
 }
 
-.imageContainer:hover {
+/* .imageContainer:hover {
     width: 320px;
-}
+} */
 
-img {
-    /* display: block;
-    margin: 4rem auto 2rem auto;
-    max-width: 50rem;
-    max-height: 50rem; */
-    width: 100%;
+.imageContainer img {
+    max-width: 100%;
     height: auto;
     transition: transform 0.3s ease;
 
     border-radius: 10px;
-    box-shadow: 10px 10px 20px rgb(116, 177, 238);
 }
 
-img:hover {
-    transform: scale(0.9);
+/* .imageContainer img:hover {
+    
 
-    /* transform: scale(1.05);
-    transition: all 0.8s ease; */
+    transform: scale(1.05);
+    transition: all 0.8s ease;
 
-    /* -webkit-transform: scale(1.05);
-	transform: scale(1.05); */
+    -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+} */
+
+#marsPhoto {
+    max-width: 80%;
+    margin: 4rem auto;
+    height: auto;
+    box-shadow: inset 1px 1px 40px 0 rgb(117, 162, 201);
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0.4rem;
 }
 
 /* Mars photo specs */

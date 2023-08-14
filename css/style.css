@@ -21,6 +21,10 @@ body {
 
 /* Header */
 
+.introTextDiv {
+    padding: 0 4rem;
+}
+
 .introHeader {
     padding: 6rem 0 3rem 0 !important;
 }
@@ -32,6 +36,10 @@ body {
     letter-spacing: 0.1rem;
     text-decoration: none;
     color: black;
+}
+
+.introText span {
+    color: rgb(116, 177, 238);
 }
 
 .introText a:hover {

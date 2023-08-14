@@ -10,12 +10,34 @@ html {
     color: black;
     font-weight: 100;
     line-height: 2;
+    letter-spacing: 0.1rem;
 }
   
 body {
     margin: 0;
     padding: 0;
     background: url('https://images.unsplash.com/photo-1537420327992-d6e192287183?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80');
+}
+
+/* Header */
+
+.introHeader {
+    padding: 6rem 0 3rem 0 !important;
+}
+
+.introText, .introText a {
+    max-width: 90rem;
+    margin: 0 auto;
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.introText a:hover {
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+    color: rgb(116, 177, 238);
 }
   
 /* LAYOUT*/
@@ -104,8 +126,9 @@ p {
 }
 
 .imageContainer {
-    width: 80%;
-    height: auto;
+    position: relative;
+    max-width: 70rem;
+    max-height: 70rem;
     overflow: hidden;
     cursor: pointer;
     margin: 5rem auto 0 auto;
@@ -116,7 +139,7 @@ p {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     transform: scale(1);

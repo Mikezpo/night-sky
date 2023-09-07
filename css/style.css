@@ -30,7 +30,8 @@ body {
 }
 
 .introText, .introText a {
-    max-width: 90rem;
+    text-align: center;
+    max-width: 110rem;
     margin: 0 auto;
     font-size: 2.2rem;
     letter-spacing: 0.1rem;
@@ -65,7 +66,7 @@ section {
 }
 
 .infoDiv {
-    max-width: 90rem;
+    max-width: 110rem;
     margin: 4rem auto;
     display: flex;
     flex-direction: column;
@@ -84,6 +85,12 @@ input {
     padding: 0.4rem;
     display: block;
     margin: 2rem auto;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 20px rgb(116, 177, 238);
 }
   
 button {
@@ -98,13 +105,14 @@ button {
     cursor: pointer;
     width: 13rem;
     margin: 0 auto;
+    transition: all 1s ease-out;
 }
   
 button:hover {
     background: rgb(249, 243, 220);
     color: rgb(117, 162, 201);
     transform: scale(1.1);
-    transition: all 0.8s ease-out;
+    
 }
   
 h1, h2, h3 {
@@ -133,6 +141,14 @@ p {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.astroPhotoDescr {
+    text-align: center;
+    max-width: 110rem;
+    margin: 0 auto;
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+}
+
 .imageContainer {
     position: relative;
     max-width: 70rem;
@@ -140,6 +156,7 @@ p {
     overflow: hidden;
     cursor: pointer;
     margin: 5rem auto 0 auto;
+    padding: 0 2rem;
 }
 
 .imageContainer:hover {
@@ -201,9 +218,27 @@ img:hover {
 .registered a {
     text-decoration: none;
     color: rgb(249, 243, 220);
+    transition: all 1s ease-out;
+    padding: 0.25rem 0.5rem;
 }
 
 .registered a:hover {
-    transition: all 0.8s ease;
-    color: rgb(116, 177, 238);
+    color: rgb(10, 132, 194);
+    font-weight: 600;
+    background: rgb(249, 243, 220);
+    border: 2px solid rgb(116, 177, 238);
+    box-shadow: 0px 0px 20px rgb(116, 177, 238);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    section {
+        width: 90%;
+    }
+
+    .introTextDiv {
+        padding: 0 2rem;
+    }
+
+
 }
